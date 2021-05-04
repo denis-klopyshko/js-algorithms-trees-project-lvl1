@@ -1,0 +1,42 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/denis-klopyshko/js-algorithms-trees-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/denis-klopyshko/js-algorithms-trees-project-lvl1/actions)",
+  "main": "./index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "npx jest --bail",
+    "lint": "npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denis-klopyshko/js-algorithms-trees-project-lvl1.git"
+  },
+  "author": "Denis Klopyshko",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "node",
+    "testRunner": "jest-circus/runner"
+  },
+  "bugs": {
+    "url": "https://github.com/denis-klopyshko/js-algorithms-trees-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/denis-klopyshko/js-algorithms-trees-project-lvl1#readme",
+  "dependencies": {
+    "debug": "^4.3.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@jest/globals": "^26.6.2",
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.2",
+    "jest": "^26.6.3",
+    "jest-circus": "^26.6.3",
+    "jest-cli": "^26.6.3"
+  }
+}
